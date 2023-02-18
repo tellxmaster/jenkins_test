@@ -4,7 +4,7 @@ pipeline {
         stage('Prueba Fn. Suma') {
             steps {
                 sh '''
-                    python3 -m unittest main.py
+                    python3 -m unittest tests_file.py
                 '''
             }
         }
