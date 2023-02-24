@@ -4,7 +4,7 @@ from main import suma, resta, multiplicacion;
 class TestFunciones(unittest.TestCase):
     
     def test_suma(self):
-        self.assertEqual(suma(2, 3), 5)
+        self.assertEqual(suma(2, 3), 6)
         self.assertEqual(suma(-4, 9), 5)
         self.assertEqual(suma(0, 0), 0)
 

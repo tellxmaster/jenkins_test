@@ -13,7 +13,7 @@ pipeline {
         failure {
             emailext subject: "Build fallido: ${currentBuild.fullDisplayName}",
                     body: "El build fallo por lo siguiente: ${currentBuild.currentResult.description}",
-                    to: "eitelleria@espe.edu.ec"
+                    to: "telleriaelias@gmail.com"
         }
         success {
             echo "Todas las pruebas fueron realizadas correctamente!"
